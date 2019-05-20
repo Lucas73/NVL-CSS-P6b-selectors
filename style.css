@@ -1,0 +1,13 @@
+div > p{
+  border: 2px solid #fabada;
+
+}
+
+div :first-child{
+  border: none !important;
+  color: black !important
+}
+
+div :first-child + p{
+  color:red
+}
